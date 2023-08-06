@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Painel de Links</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-color: #222222; /* Preto metálico */
+        }
+
+        .panel {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-radius: 10px;
+            background-color: #4169E1; /* Azul Royal */
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+        }
+
+        .button-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 20px;
+        }
+
+        .button {
+            display: inline-block;
+            margin: 10px;
+            padding: 15px 30px;
+            width: 150px;
+            height: 150px;
+            border-radius: 10px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+            text-decoration: none;
+            color: #000000;
+            font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-size: cover;
+        }
+
+        .button:hover {
+            background-color: #f2f2f2;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.3);
+        }
+
+        .player {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 300px;
+            height: 60px;
+            background-color: #ffffff;
+            box-shadow: 0px 0px 8px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+        }
+
+        .button-text {
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <div class="panel">
+        <div class="button-container">
+            <a href="https://api.whatsapp.com/send?phone=5593991786584" class="button" style="background-image: url(https://telegra.ph/file/2d703af8ab096de30e97e.jpg);"></a>
+            <p class="button-text">WhatsApp</p>
+        </div>
+        <div class="button-container">
+            <a href="https://instagram.com/jason_stevan?utm_source=qr&igshid=NGExMmI2YTkyZg%3D%3D" class="button" style="background-image: url(https://telegra.ph/file/2738cb84ed5f0219ac02b.jpg);"></a>
+            <p class="button-text">Instagram</p>
+        </div>
+        <div class="button-container">
+            <a href="https://jarlison-menezes-vieira.herospark.co/p/zyone-perfumaria-br" class="button" style="background-image: url(https://telegra.ph/file/d3fe76086aa55dd68597b.jpg);"></a>
+            <p class="button-text">Zyone Perfumaria</p>
+        </div>
+
+        <div class="player">
+            <audio controls>
+                <source src="http://stream.zeno.fm/u10b411za0hvv" type="audio/mpeg">
+                Seu navegador não suporta o elemento de áudio.
+            </audio>
+        </div>
+    </div>
+</body>
+</html>
